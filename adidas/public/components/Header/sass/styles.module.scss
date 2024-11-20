@@ -1,0 +1,18 @@
+@import "../../../../app/styles/padroes/padroes.scss";
+
+
+.header {
+    background-color: $neutral-200;
+    padding: 1rem;
+   .itemsMenuTotalize {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .items {
+        display: flex;
+        gap: 0.75rem;
+    }
+   }
+}
