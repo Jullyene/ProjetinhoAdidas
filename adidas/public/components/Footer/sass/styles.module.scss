@@ -1,3 +1,43 @@
 @import "../../../../app/styles/padroes/padroes.scss";
 
 
+.footer {
+    background-color: $pure-black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: $gap4;
+
+    .texts {
+        color: $pure-white;
+
+        .titleDiv {
+            font-size: $fontSize2;
+            font-weight: $font-weight5;
+            margin-bottom: 2rem;
+        }
+        .sectionSobre {
+            display: flex;
+            flex-direction: column;
+            gap: $gap1;
+
+            a {
+                color: $pure-white;
+                text-decoration: none;
+                font-weight: $font-weight2;
+                font-size: $fontSize2;
+            }
+        }
+
+        .redesFooter {
+            display: flex;
+            flex-direction: row;
+            gap: $gap0-5;
+
+            >img {
+                cursor: pointer;
+            }
+        }
+    }
+
+}
