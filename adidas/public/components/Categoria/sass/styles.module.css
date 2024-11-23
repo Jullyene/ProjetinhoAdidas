@@ -1,0 +1,17 @@
+.categoria {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.categoria .imagens {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.categoria .imagens > img {
+  width: 50%;
+}
+.categoria .imagemCategoriaMulher > img {
+  width: 100%;
+}/*# sourceMappingURL=styles.module.css.map */
